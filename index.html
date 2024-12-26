@@ -17,9 +17,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans&family=Rubik+Dirt&family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans&family=Rubik+Dirt&family=Share+Tech+Mono&family=Staatliches&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Barra de navegacion -->
@@ -283,6 +284,56 @@
         </a>
 
       </section>
+
+      <!-- Testimonios -->
+       <section class="testimonios seccion-clara">
+        <h2 class="seccion-titulo">Testimonios</h2>
+        <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+
+        <!-- Carrusel -->
+        <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="assets/imagenes/cliente1.svg" alt="Foto o imagen de Gino">
+                <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium modi aliquam ut expedita molestiae quasi optio provident sed, deleniti, illum reprehenderit nesciunt molestias impedit.</p>
+                <div class="testimonio-info">
+                  <p class="cliente">Gino</p>
+                  <p class="cargo">Gerente de proyectos en DesarrolloWeb</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="assets/imagenes/cliente2.svg" alt="Foto o imagen de Nora">
+                <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium modi aliquam ut expedita molestiae quasi optio provident sed, deleniti, illum reprehenderit nesciunt molestias impedit.</p>
+                <div class="testimonio-info">
+                  <p class="cliente">Nora</p>
+                  <p class="cargo">Gerente de proyectos en DiseñaMiPaginaWeb</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="assets/imagenes/cliente3.svg" alt="Foto o imagen de Leonardo">
+                <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium modi aliquam ut expedita molestiae quasi optio provident sed, deleniti, illum reprehenderit nesciunt molestias impedit.</p>
+                <div class="testimonio-info">
+                  <p class="cliente">Leonardo</p>
+                  <p class="cargo">Director de AprendeAProgramar</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+       </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
