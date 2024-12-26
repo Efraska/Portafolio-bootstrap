@@ -330,6 +330,18 @@ footer {
   font-family: "Quicksand", serif;
 }
 
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
 /* Adaptable (Responsivo) */
 @media screen and (max-width: 400px) {
   .overlay p {
