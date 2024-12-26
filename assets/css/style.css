@@ -312,6 +312,24 @@ h1 {
   color: black;
 }
 
+/* Pie de pagina (footer) */
+footer {
+  min-height: 500px;
+}
+
+.footer-logo {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: "Quicksand", serif;
+}
+
 /* Adaptable (Responsivo) */
 @media screen and (max-width: 400px) {
   .overlay p {
